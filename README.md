@@ -25,7 +25,7 @@ To run the project, you can use the provided Jupyter notebooks or Python scripts
 
 ## **Data Collection**
 
-To collect data for the project, you will need to tag along with professional storm chasers and chase tornadoes. The data collected will include information such as tornado location, size, wind speed, and direction. You can also collect weather data such as temperature, humidity, and atmospheric pressure.
+To collect data for the project, you will need real-world weather data as well as data collected in the field during recent storm chases. The data collected will include information such as tornado location, size, wind speed, and direction. You can utilize collect weather data such as temperature, humidity, and atmospheric pressure. Transfer Learning will explored and potentially leveraged should the need arise due to gaps or ineffciencies in data sets.
 
 
 ## **Preprocessing**
