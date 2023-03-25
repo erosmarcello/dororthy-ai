@@ -26,7 +26,9 @@ To run the project, you can use the provided Jupyter notebooks or Python scripts
 
 ## **Data Collection**
 
-To collect data for the project, you will need real-world weather data as well as data collected in the field during recent storm chases. The data collected will include information such as tornado location, size, wind speed, and direction. You can utilize collect weather data such as temperature, humidity, and atmospheric pressure. Transfer Learning will explored and potentially leveraged should the need arise due to gaps or ineffciencies in data sets.
+To collect data for the project, you will need real-world weather data as well as data collected in the field during recent storm chases. The data collected will include information such as tornado location, size, wind speed, and direction. Weather data utilized will specifically include atmospheric conditions such as temperature, pressure fluctuation, humidity, wind direction + speed, precipitation levels + patterns, lightning activity, radar data (such as reflectivity and velocity) as well as satellite imagery.
+
+Transfer Learning will be explored and leveraged when and if the need arises due to gaps or inefficiencies in data.
 
 
 ## **Preprocessing**
@@ -36,7 +38,9 @@ Once you have collected the data, you will need to preprocess it before feeding 
 
 ## **Machine Learning**
 
-You can use both Python and Julia to build and train the machine learning models. This project includes examples of various machine learning techniques such as regression, classification, and clustering.
+You can use both Python and Julia to build and train the machine learning models. This project includes examples of various machine and deep learning techniques such as regression, classification, and clustering.
+
+For supervised learning, we plan to explore classification algorithms such as Random Forest, Support Vector Machines, and Convolutional Neural Networks. Unsupervised learning techniques like K-means clustering and Principal Component Analysis will also be employed to extract patterns and insights from the data. In addition, we will also be using time series analysis and anomaly detection methods to identify any unusual or abnormal patterns.
 
 
 ## **Evaluation**
