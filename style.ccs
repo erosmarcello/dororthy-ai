@@ -1,0 +1,25 @@
+/* Set the background color to white */
+body {
+  background-color: white;
+}
+
+/* Add some padding to the top and bottom of the page */
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Add a border to the main content area */
+#content {
+  border: 1px solid black;
+}
+
+/* Style the links */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
