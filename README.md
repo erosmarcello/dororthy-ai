@@ -67,6 +67,6 @@ This project is open to contributions from anyone interested in machine learning
 
 ## **License**
 
-This project is licensed under the MIT License - see the <a href="https://github.com/erosmarcello/dorothy-ai/blob/main/LICENSE.md">license.md</a> file for details.
+This project is licensed under the MIT License - see the <a href="https://github.com/erosmarcello/dorothy-ai/blob/main/LICENSE.md">LICENSE.md</a> file for details.
 
 
