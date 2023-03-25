@@ -21,7 +21,19 @@ Pkg.instantiate()
 
 ## **Usage**
 
-To run the project, you can use the provided Jupyter notebooks or Python scripts in the notebooks and scripts directories.
+To run this project, you can follow these steps:
+
+1. Clone the repository:
+```
+git clone https://github.com/your_username/dorothy-ai.git
+```
+2. Open the project in Google Colab.
+
+3. Follow the instructions in the notebook to train and test the machine learning model on the provided data.
+
+Alternatively, you can download the project as a ZIP file and run the notebooks locally on your machine using Jupyter Notebook or JupyterLab.
+
+Note: Using Google Colab provides the advantage of free access to GPUs, which can significantly speed up the training process.
 
 
 ## **Data Collection**
