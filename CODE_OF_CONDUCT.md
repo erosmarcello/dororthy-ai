@@ -1,6 +1,6 @@
 # Dorothy AI Code of Conduct
 
-As a the founder and principal contributor of the Dorothy AI project, I'm committed to maintaining a welcoming environment for everyone who participates in this project. This means that I'll strive to treat all contributors with respect and consideration.
+As a the founder and principal contributor of the Dorothy AI project, I'm committed to maintaining a welcoming environment for everyone who participates in this initative. This means that I'll strive to treat all contributors with respect and consideration.
 
 To ensure that this project remains a positive and productive space for collaboration, I have established the following guidelines for conduct:
 
