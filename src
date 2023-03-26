@@ -1,1 +1,43 @@
-
+src/
+├── data/
+│   ├── raw/
+│   │   ├── dataset1.csv
+│   │   └── dataset2.csv
+│   ├── processed/
+│   │   ├── dataset1_cleaned.csv
+│   │   ├── dataset1_encoded.csv
+│   │   ├── dataset2_cleaned.csv
+│   │   └── dataset2_encoded.csv
+│   └── utils.py
+├── models/
+│   ├── rf_classifier.py
+│   ├── svm_classifier.py
+│   ├── cnn_classifier.py
+│   ├── kmeans_clusterer.py
+│   ├── pca_analyzer.py
+│   ├── time_series_analyzer.py
+│   └── anomaly_detector.py
+├── notebooks/
+│   ├── exploratory_data_analysis.ipynb
+│   ├── data_preprocessing.ipynb
+│   ├── model_training.ipynb
+│   ├── model_evaluation.ipynb
+│   ├── results_visualization.ipynb
+│   └── performance_comparison.ipynb
+├── tests/
+│   ├── test_rf_classifier.py
+│   ├── test_svm_classifier.py
+│   ├── test_cnn_classifier.py
+│   ├── test_kmeans_clusterer.py
+│   ├── test_pca_analyzer.py
+│   ├── test_time_series_analyzer.py
+│   └── test_anomaly_detector.py
+├── utils/
+│   ├── data_loading.py
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── model_evaluation.py
+│   ├── results_visualization.py
+│   └── performance_comparison.py
+├── requirements.txt
+└── README.md
