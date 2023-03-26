@@ -1,0 +1,27 @@
+To effectively collect, organize, and optimize data during storm chases for our machine learning model, follow these steps:
+
+    * Identify relevant data: Determine the data variables that are important for predicting tornadic activity and behavior. Some potential variables include temperature, humidity, wind speed, wind direction, barometric pressure, and radar-derived variables such as reflectivity, storm-relative velocity, and spectrum width.
+
+    * Use appropriate sensors and tools: Invest in reliable sensors and tools to collect accurate and precise data during storm chases. Some useful tools are:
+        - A portable weather station for measuring temperature, humidity, wind speed, and wind direction
+        - A barometer to measure atmospheric pressure
+        - A mobile radar system or access to radar data from nearby National Weather Service (NWS) radar sites
+        - GPS devices to record the location and time of each data point
+        
+    * Standardize data collection: Create a consistent method for data collection during storm chases. Ensure that all team members follow the same protocol for data gathering, including how frequently data is collected, how measurements are taken, and how data is stored.
+
+    * Organize the data: Store the collected data in a structured format such as a CSV file or a database, with each row representing a data point and each column representing a variable (e.g., time, location, temperature, humidity, etc.). Make sure to include appropriate headers for each column and consistently use units of measurement throughout the dataset.
+
+    * Clean and preprocess the data: After collecting the data, clean and preprocess it to prepare it for the machine learning model. This process may involve:
+        - Handling missing or inconsistent data
+        - Converting units of measurement, if necessary
+        - Filtering out noise or outliers
+        - Standardizing or normalizing the data
+        
+    * Feature engineering: Extract relevant features from the collected data, create new features if needed, and select the most important features for your machine learning model. For example, you could calculate derived variables such as dew point, lapse rates, or helicity, which may be important for predicting tornadic activity.
+
+    * Integrate external data: Consider integrating external data sources, such as SPC severe weather outlooks, to complement the data collected during storm chases. This additional data can help improve the model's performance and provide valuable context for understanding tornadic activity.
+
+    * Optimize data collection: Continuously review and optimize your data collection process. Analyze the performance of your machine learning model and identify areas where additional data or improved data quality could lead to better predictions. Adjust your data collection methods accordingly.
+    
+By following these steps, you can effectively collect, organize, and optimize the data during storm chases to build a robust machine learning model for predicting tornadic activity and behavior.
