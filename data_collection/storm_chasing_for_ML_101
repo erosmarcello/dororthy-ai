@@ -24,4 +24,4 @@ To effectively collect, organize, and optimize data during storm chases for our 
 
     * Optimize data collection: Continuously review and optimize your data collection process. Analyze the performance of your machine learning model and identify areas where additional data or improved data quality could lead to better predictions. Adjust your data collection methods accordingly.
     
-By following these steps, you can effectively collect, organize, and optimize the data during storm chases to build a robust machine learning model for predicting tornadic activity and behavior.
+By following these steps, we can effectively collect, organize, and optimize the data during storm chases to build a robust machine learning model for our purposes of predicting tornadic activity and behavior.
