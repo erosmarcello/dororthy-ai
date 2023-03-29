@@ -1,0 +1,69 @@
+<!-- AIML for Tornado Chasing Assistant with SRAI -->
+<aiml version="2.0" encoding="UTF-8">
+
+<!-- Introduction -->
+<category>
+  <pattern>HELLO</pattern>
+  <template>Hello! I am your Tornado Chasing Assistant. How can I help you today?</template>
+</category>
+<category>
+  <pattern>HI</pattern>
+  <template><srai>HELLO</srai></template>
+</category>
+
+<!-- Query for current tornado risk -->
+<category>
+  <pattern>WHAT IS THE CURRENT TORNADO RISK *</pattern>
+  <template>
+    <think>
+      <set name="risk">getTornadoRisk()</set>
+    </think>
+    The current tornado risk is <get name="risk"/>.
+  </template>
+</category>
+<category>
+  <pattern>CURRENT TORNADO RISK *</pattern>
+  <template><srai>WHAT IS THE CURRENT TORNADO RISK *</srai></template>
+</category>
+
+<!-- Query for current severe weather metrics -->
+<category>
+  <pattern>GIVE ME REAL-TIME SEVERE WEATHER METRICS *</pattern>
+  <template>
+    <think>
+      <set name="temperature">getTemperature()</set>
+      <set name="humidity">getHumidity()</set>
+      <set name="wind_speed">getWindSpeed()</set>
+      <set name="precipitation">getPrecipitation()</set>
+    </think>
+    Here are the real-time severe weather metrics:
+    - Temperature: <get name="temperature"/> °F
+    - Humidity: <get name="humidity"/>%
+    - Wind Speed: <get name="wind_speed"/> mph
+    - Precipitation: <get name="precipitation"/> inches
+  </template>
+</category>
+<category>
+  <pattern>SHOW ME SEVERE WEATHER METRICS *</pattern>
+  <template><srai>GIVE ME REAL-TIME SEVERE WEATHER METRICS *</srai></template>
+</category>
+
+<!-- Additional tornado-related information -->
+<category>
+  <pattern>WHAT IS A TORNADO</pattern>
+  <template>
+    A tornado is a rapidly rotating column of air that is in contact with both the surface of the Earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud. They are often accompanied by severe weather conditions such as strong winds, heavy rain, and hail.
+  </template>
+</category>
+
+<!-- Goodbye -->
+<category>
+  <pattern>GOODBYE</pattern>
+  <template>Goodbye! Stay safe and feel free to reach out if you need any assistance in the future.</template>
+</category>
+<category>
+  <pattern>BYE</pattern>
+  <template><srai>GOODBYE</srai></template>
+</category>
+
+</aiml>
